@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+
+
+    <servlet>
+        <servlet-name>SaleServlet</servlet-name>
+        <servlet-class>main.com.simpleonlineshop.servlet.SaleServlet</servlet-class>
+
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>SaleServlet</servlet-name>
+        <url-pattern>/sales</url-pattern>
+        <url-pattern>/sales/add</url-pattern>
+        <url-pattern>/sales/create</url-pattern>
+        <url-pattern>/sales/edit</url-pattern>
+        <url-pattern>/sales/list</url-pattern>
+        <url-pattern>/sales/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ItemServlet</servlet-name>
+        <servlet-class>main.com.simpleonlineshop.servlet.ItemServlet</servlet-class>
+
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>ItemServlet</servlet-name>
+        <url-pattern>/items</url-pattern>
+        <url-pattern>/items/create</url-pattern>
+        <url-pattern>/items/edit</url-pattern>
+        <url-pattern>/items/list</url-pattern>
+        <url-pattern>/items/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>UserServlet</servlet-name>
+        <servlet-class>main.com.simpleonlineshop.servlet.UserServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>UserServlet</servlet-name>
+        <url-pattern>/users</url-pattern>
+        <url-pattern>/users/create</url-pattern>
+        <url-pattern>/users/edit</url-pattern>
+        <url-pattern>/users/list</url-pattern>
+        <url-pattern>/users/delete</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>RegistrationServlet</servlet-name>
+        <servlet-class>main.com.simpleonlineshop.servlet.RegistrationServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>RegistrationServlet</servlet-name>
+        <url-pattern>/registration</url-pattern>
+
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ProductsServlet</servlet-name>
+        <servlet-class>main.com.simpleonlineshop.servlet.ProductsServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ProductsServlet</servlet-name>
+        <url-pattern>/products/list</url-pattern>
+        <url-pattern>/products/edit</url-pattern>
+        <url-pattern>/products/create</url-pattern>
+        <url-pattern>/products/delete</url-pattern>
+    </servlet-mapping>
+
+
+
+
+</web-app>
