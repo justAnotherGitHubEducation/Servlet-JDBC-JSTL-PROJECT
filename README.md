@@ -7,13 +7,15 @@
 
 3.SQL
 
-4.MAVEN
+4.Maven
 
 5.JSTL
 
-6.POSTGRESQL
+6.PostgreSQL
 
-7.LOMBOK
+7.Lombok
+
+8.Stream API
 
 
 Схема БД:
